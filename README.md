@@ -10,9 +10,9 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### compiler backend
 ```
-npm run build
+json-server --watch db.json
 ```
 
 ### Lints and fixes files
