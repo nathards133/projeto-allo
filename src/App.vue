@@ -1,19 +1,17 @@
 <template>
   <div class="app">
+
     <SideBarComponent />
     <router-view />
   </div>
 </template>
 <script>
 import SideBarComponent from "./components/SideBarComponent.vue";
-// import HeaderComponent from "@/components/HeaderComponent.vue";
-// import SideBarComponent from "./components/SideBarComponent.vue";
-// import DataTable from "./components/DataTable.vue";
 
 export default {
   components: {
     SideBarComponent,
-  },
+},
 };
 </script>
 <style lang="scss">
@@ -52,5 +50,8 @@ export default {
       padding-left: 6rem;
     }
   }
+  .name {
+  text-align: center;
+}
 }
 </style>
