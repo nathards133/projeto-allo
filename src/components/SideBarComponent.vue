@@ -1,8 +1,11 @@
 <template>
     <aside :class="`${is_expanded ? 'is-expanded' : ''}`">
-      <div class="logo">
-        <img :src="logoURL" alt="Vue" />
-      </div>
+      <div class="logoA" v-if="is_expanded">
+      <img :src="logoURL" alt="Vue" />
+    </div>
+      <div class="logoB" v-else>
+      <img :src="logoURL" alt="Vue" />
+    </div>
 
       <h3>Menu</h3>
       <div class="menu">
@@ -72,34 +75,31 @@ aside {
       width: 3rem;
     }
   }
+  .logoA {
+    img {
+      width: 3rem;
+    }
+  }
+  .logoB {
+    img {
+      width: 2.5rem;
+    }
+  }
+
 
   .menu-toggle-wrap {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 1rem;
-
     position: relative;
     top: 0;
     transition: 0.2s ease-in-out;
-
     .menu-toggle {
       transition: 0.2s ease-in-out;
-      .material-icons {
-        font-size: 2rem;
-        color: var(--dark);
-        transition: 0.2s ease-out;
-      }
-      &:hover {
-        .material-icons {
-          color: var(--primary);
-          transform: translateX(0.5rem);
-        }
-      }
+      color: var(--primary)
     }
   }
-
-  h3,
-  .button .text {
+  h3, .button .text {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
@@ -158,7 +158,7 @@ aside {
 
     .menu-toggle {
       transform: rotate(-180deg);
-      color: var(--dark);
+      color: var(--primary);
     }
 
     h3,
@@ -172,7 +172,7 @@ aside {
   }
 
   @media (max-width: 1024px) {
-    position: absolute;
+    position: fixed;
     z-index: 99;
   }
 }

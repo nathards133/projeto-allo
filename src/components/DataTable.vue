@@ -60,6 +60,7 @@
           </b-row>
         </template>
       </b-table>
+    </b-card>
 
       <div class="overflow-auto">
         <b-pagination
@@ -82,7 +83,7 @@
             :customerId="customerId"
         ></edit-customer-form>
       </b-modal>
-    </b-card>
+   
   </b-container>
 </template>
 
@@ -225,13 +226,8 @@ export default {
 .action-item:hover {
   cursor: pointer;
 }
-
 h3 {
   text-align: center;
-}
-b-card {
-  position: fixed;
-  display: flex;
 }
 
 </style>

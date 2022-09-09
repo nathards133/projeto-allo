@@ -1,10 +1,7 @@
 <template>
-
-    <div class="app">
+    <div class="app table">
       <DataTable/>
-
     </div>
-
 </template>
 
 <script>
@@ -17,10 +14,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-.home {
-  text-align: center;
-  position: center;
-  width: 100%;
-}
-</style>

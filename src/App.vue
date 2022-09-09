@@ -1,13 +1,9 @@
 <template>
 
-  <div class="app">
-
-    <SideBarComponent/>
-
-    <router-view/>
-    <img src="./assets/background.png" alt="Vue">
+<div class="app imagem">
+    <SideBarComponent />
+    <router-view />
   </div>
-
 
 </template>
 <script>
@@ -27,43 +23,46 @@ export default {
   --dark-alt: #334155;
   --light: #f1f5f9;
   --sidebar-width: 300px;
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Fira sans", sans-serif;
-  }
-
-  body {
-    background: var(--light);
-  }
-
-  button {
-    cursor: pointer;
-    // appearance: none;
-    border: none;
-    outline: none;
-    // background: none;
-  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+}
+body {
+  background: var(--light);
+}
+button {
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
 
   .app {
-    display: flex;
-  }
-
+  display: flex;
   main {
     flex: 1 1 0;
     padding: 2rem;
-    @media (max-width: 1013px) {
+    @media (max-width: 1024px) {
       padding-left: 6rem;
     }
   }
-
+}
   .name {
     text-align: center;
   }
-  img{
-    opacity: 30%;
-  }
-}
+  .imagem {
+   background-image: url('@/assets/background.png');
+   background-position: 30% 45%;
+   background-color: black;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   z-index: 2;
+ }
+
 </style>

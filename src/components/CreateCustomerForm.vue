@@ -75,12 +75,13 @@
           Cliente Ativo
         </b-form-checkbox>
 
-        <b-col class="mt-5">
+        
+      </b-col>
+      <b-col class="mt-5">
           <b-button variant="primary" @click="addNewCustomer"
           >Adicionar cliente
           </b-button>
         </b-col>
-      </b-col>
     </b-card>
   </div>
 </template>

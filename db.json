@@ -18,7 +18,34 @@
       "id": 7
     },
     {
+      "nome": "Nathã rosário da silva",
+      "email": "natha@gmail.com",
+      "telefone": "(44) 9917-9898",
+      "cpf": "160.855.567-48",
+      "status": "active",
       "id": 8
+    },
+    {
+      "nome": "Simone Saraiva",
+      "email": "Simone@gmail.com",
+      "telefone": "(43) 88874-4452",
+      "cpf": "118.489.489-84",
+      "id": 9
+    },
+    {
+      "nome": "Fabio Augusto",
+      "email": "fabin1123@hotmail.com",
+      "telefone": "(55) 99848-4848",
+      "cpf": "144.744.485-58",
+      "id": 10
+    },
+    {
+      "nome": "Tarcisio Ribeiro ",
+      "email": "Tribeiro33@hotmail.com",
+      "telefone": "(65) 99884-8584",
+      "cpf": "884.848.455-54",
+      "status": "active",
+      "id": 11
     }
   ]
 }

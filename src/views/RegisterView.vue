@@ -1,5 +1,5 @@
 <template>
-  <div class="container name">
+  <div class="container table">
     <CreateCustomerForm/>
   </div>
 </template>
