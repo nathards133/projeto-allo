@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-### compiler backend
+### Compiler Backend
 ```
 json-server --watch db.json
 ```
