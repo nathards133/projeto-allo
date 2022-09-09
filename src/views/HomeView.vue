@@ -1,12 +1,10 @@
 <template>
-  <main id="Home-page">
-    <div class="container name">
-      <h3>Plataforma Cadastro Clientes</h3>
-      <div class="app">
-        <DataTable />
-      </div>
+
+    <div class="app">
+      <DataTable/>
+
     </div>
-  </main>
+
 </template>
 
 <script>
@@ -20,7 +18,9 @@ export default {
 };
 </script>
 <style scoped>
-.name {
+.home {
   text-align: center;
+  position: center;
+  width: 100%;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div class="container name">
-    <CreateCustomerModal/>
+    <CreateCustomerForm/>
   </div>
 </template>
 <script>
-import CreateCustomerModal from "@/components/CreateCustomerForm";
+import CreateCustomerForm from "@/components/CreateCustomerForm";
 export default {
-components: {CreateCustomerModal}
+components: {CreateCustomerForm}
 }
 </script>

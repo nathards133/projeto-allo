@@ -18,6 +18,8 @@
           <i class="fa-solid fa-gear"></i>
           <span class="text ml-2"> Settings</span>
         </router-link>
+
+
       </div>
       <div class="flex"></div>
 
@@ -52,7 +54,7 @@ aside {
   background-color: var(--dark);
   color: var(--light);
 
-  width: calc(2rem + 32px);
+  width: calc(2rem + 28px);
   overflow: hidden;
   min-height: 100vh;
   padding: 1rem;
@@ -67,7 +69,7 @@ aside {
     margin-bottom: 1rem;
 
     img {
-      width: 4rem;
+      width: 3rem;
     }
   }
 
@@ -82,7 +84,17 @@ aside {
 
     .menu-toggle {
       transition: 0.2s ease-in-out;
-      color: var(--light);
+      .material-icons {
+        font-size: 2rem;
+        color: var(--dark);
+        transition: 0.2s ease-out;
+      }
+      &:hover {
+        .material-icons {
+          color: var(--primary);
+          transform: translateX(0.5rem);
+        }
+      }
     }
   }
 
@@ -146,7 +158,7 @@ aside {
 
     .menu-toggle {
       transform: rotate(-180deg);
-      color: var(--light);
+      color: var(--dark);
     }
 
     h3,

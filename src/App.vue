@@ -1,17 +1,21 @@
 <template>
+
   <div class="app">
 
-    <SideBarComponent />
-    <router-view />
+    <SideBarComponent/>
+
+    <router-view/>
+    <img src="./assets/background.png" alt="Vue">
   </div>
+
+
 </template>
 <script>
 import SideBarComponent from "./components/SideBarComponent.vue";
-
 export default {
   components: {
     SideBarComponent,
-},
+  },
 };
 </script>
 <style lang="scss">
@@ -30,9 +34,11 @@ export default {
     box-sizing: border-box;
     font-family: "Fira sans", sans-serif;
   }
+
   body {
     background: var(--light);
   }
+
   button {
     cursor: pointer;
     // appearance: none;
@@ -40,18 +46,24 @@ export default {
     outline: none;
     // background: none;
   }
+
   .app {
     display: flex;
   }
+
   main {
     flex: 1 1 0;
     padding: 2rem;
-    @media (max-width: 1024px) {
+    @media (max-width: 1013px) {
       padding-left: 6rem;
     }
   }
+
   .name {
-  text-align: center;
-}
+    text-align: center;
+  }
+  img{
+    opacity: 30%;
+  }
 }
 </style>

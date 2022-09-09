@@ -1,61 +1,24 @@
 {
-  "customers": [
-    {
-      "id": 1,
-      "contact_firstname": "Jane",
-      "contact_lastname": "Doe",
-      "contact_email": "jdoe@awesome.com",
-      "contact_telefone": "44-9999-9999",
-      "contact_cpf": "888-474-798-44",
-      "acquired_on": "2021-04-03",
-      "customer_status": "active"
-    },
+  "clientes": [
     {
       "id": 2,
-      "contact_firstname": "Sarah",
-      "contact_lastname": "Jane",
-      "contact_telefone": "44-9999-9999",
-      "contact_cpf": "888-474-798-44",
-      "contact_email": "sjane@coabc.com",
-      "acquired_on": "2021-06-03",
-      "customer_status": "active"
+      "nome": "Augusto Silva",
+      "email": "jdoe@awesome.com",
+      "telefone": "44-9999-1515",
+      "cpf": "966-474-798-44",
+      "ultimo_contato": "2021-04-03",
+      "status": "active"
     },
     {
-      "id": 3,
-      "contact_firstname": "Tim",
-      "contact_lastname": "Hane",
-      "contact_telefone": "44-9999-9999",
-      "contact_cpf": "888-474-798-44",
-      "contact_email": "thane@coxyz.com",
-      "acquired_on": "2020-12-03",
-      "customer_status": "active"
+      "nome": "Nathã Rosário da Silva",
+      "email": "nathafaculdade@gmail.com",
+      "telefone": "(44) 99999-9999",
+      "cpf": "160.855.567-48",
+      "status": "active",
+      "id": 7
     },
     {
-      "id": 4,
-      "contact_lastname": "Doe",
-      "contact_email": "mdoe@vidprod.com",
-      "contact_telefone": "44-9999-9999",
-      "contact_cpf": "888-474-798-44",
-      "acquired_on": "2020-07-05",
-      "customer_status": "inactive"
-    },
-    {
-      "id": 5,
-      "contact_firstname": "Jill",
-      "contact_lastname": "Wade",
-      "contact_telefone": "44-9999-9999",
-      "contact_cpf": "888-474-798-44",
-      "contact_email": "jwade@codewrit.com",
-      "acquired_on": "2020-04-03",
-      "customer_status": "active"
-    },
-    {
-      "contact_firstname": "Nathã ",
-      "contact_email": "natha@gmail.com",
-      "contact_telefone": "44991725399",
-      "contact_cpf": "160.855.567-48",
-      "customer_status": "active",
-      "id": 6
+      "id": 8
     }
   ]
 }
